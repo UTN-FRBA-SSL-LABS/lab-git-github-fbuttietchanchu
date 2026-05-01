@@ -287,7 +287,7 @@ c) Para que el historial de commits sea más corto y lineal
 d) Porque GitHub Classroom lo requiere para la corrección automática
 
 ```
-RESPUESTA_P1=b
+RESPUESTA_P1=
 ```
 
 ---
@@ -414,7 +414,7 @@ c) Hacer un rebase interactivo para reescribir el historial antes de responder a
 d) Pedirle al owner que mergee igual y hacer el fix en un PR separado
 
 ```
-RESPUESTA_P2=b
+RESPUESTA_P2=
 ```
 
 ---
@@ -495,7 +495,7 @@ c) Porque `git reset --hard` modifica el historial local, generando conflictos p
 d) Porque GitHub bloquea automáticamente los push después de un `git reset --hard`
 
 ```
-RESPUESTA_P3=c
+RESPUESTA_P3=
 ```
 
 ---
@@ -571,11 +571,7 @@ Abrí `operaciones.c`. Vas a ver algo así:
 
 ```c
 int esPar(int n) {
-<<<<<<< HEAD
     return (n % 2) == 0; /* version main */
-=======
-    return (n & 1) == 0;
->>>>>>> origin/feature/conflicto-demo
 }
 ```
 
